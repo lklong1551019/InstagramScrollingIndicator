@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Setup ViewPager with indicator
         ViewPager pager = findViewById(R.id.pager);
-        DemoPagerAdapter pagerAdapter = new DemoPagerAdapter(2);
+        DemoPagerAdapter pagerAdapter = new DemoPagerAdapter(10);
         pager.setAdapter(pagerAdapter);
 
         ScrollingPagerIndicator pagerIndicator = findViewById(R.id.pager_indicator);
